@@ -7,3 +7,17 @@ const adjectives = ['happy', 'sad', 'angry', 'crazy', 'afraid', 'excited', 'stro
 // Test String and Stories
 const testString = '';
 const storyOne = '';
+
+//RANDOMIZING FUNCTIONS
+
+//universal function that will choose a random index for any array
+const randomItem = (arr) => {
+    let randomIndex = Math.floor(Math.random() * arr.length);
+    return arr[randomIndex];
+};
+
+//functions that will choose sentence structure components at random
+const randomNoun = randomItem(nouns);
+const randomVerb = randomItem(verbs);
+const randomAdverb = randomItem(adverbs);
+const randomAdjective = randomItem(adjectives);
