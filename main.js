@@ -1,2 +1,3 @@
-var msg = 'Hello World';
-console.log(msg);
+const nouns = [''];
+const verbs = [''];
+const adjectives = [''];
