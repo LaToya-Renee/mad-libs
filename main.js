@@ -7,7 +7,7 @@ const adjectives = ['happy', 'sad', 'angry', 'crazy', 'afraid', 'excited', 'stro
 //universal function that will choose a random index for any array
 const randomItem = (arr) => {
     let randomIndex = Math.floor(Math.random() * arr.length);
-    return arr.splice(randomIndex, 1)[0];
+    return arr.splice(randomIndex, 1)[0].toUpperCase();
 };
 
 //Stories
